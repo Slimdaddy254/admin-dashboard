@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.sidebar{
+    background-color: #25ebcd;
+    height: 100vh;
+    color: white;
+}
+.logo-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.icon-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: white;
+    height: 100vh;
+}
