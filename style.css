@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* maingrid */
 .grid{
     display: grid;
     grid-template-columns: 30% 70%;
@@ -44,4 +45,158 @@
 .main{
     background-color: white;
     height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.header{
+    background-color: white;
+}
+.main-content{
+    background-color: #dadce0;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 20px;
+}
+.form-input{
+    width: 500px;
+    background-color: #f4f6fa;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    margin-left: 20px;
+    margin-right: 400px;
+    height: 25px;
+}
+.navbar-avtr{
+    margin: 0 20px;
+    width: 80px; 
+}
+.navbar h4 {
+    font-family: "roboto";
+    font-size: 20px;
+}
+.welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 20px;
+}
+.welcome-text{
+    font-family: "Roboto", sans-serif;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-right: 10px;
+}
+.btn{
+    background-color: #25c0eb;
+    color: white;
+    width: 70px;
+    height: 35px;
+    border: 1px solid #25c0eb;
+    border-radius: 20px;
+}
+/* Main content page */
+.main-content{
+    background-color: #d4d4d4;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.card{
+    background-color: white;
+    border-left: 8px solid rgb(235, 182, 21);
+    border-radius: 10px;
+    width: 90%;
+    height: 200px;
+    margin: 30px 0;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  flex-start;
+    padding-left: 15px;
+
+}
+.icons{
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 75%;   
+}
+h6{
+    font-size: 18px;
+    font-family: "roboto";
+}
+.card p {
+    font-size: 20px;
+    color: #a3a3a3;
+    margin: 10px 0;
+}
+h4{
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: "roboto";
+    font-size: 25px;
+}
+.ann-trend{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+}
+.ann-card, .trend-card{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+.ann-text{
+    padding: 5px 10px;
+}
+.ann-text h6{
+    font-size: 18px;
+    font-family: "roboto";
+}
+.ann-text p {
+    font-size: 18px;
+    color: #a3a3a3;   
+}
+.divider{
+    border: 0.5px solid #25c0eb ;
+    width: 80%;
+    margin: 10px;
+}
+.trend-card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.trend-image-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:10px 20px;
+}
+.trend-text{
+    margin-left: 20px;
 }
